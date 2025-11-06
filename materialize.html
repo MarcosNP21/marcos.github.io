@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo con Materialize</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body class="grey lighten-4">
+
+    <nav class="blue darken-3">
+    <div class="nav-wrapper container d-flex justify-content-between">
+      <a href="materialize.html" class="brand-logo">Materialize</a>
+      <ul class="right">
+        <li><a href="index.html">Índice</a></li>
+        <li><a href="bootstrap.html">Bootstrap</a></li>
+        <li><a href="bulma.html">Bulma</a></li>
+        <li><a href="tailwind.html">Tailwind</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="blue-text">Framework: Materialize</h1>
+    <p><a href="https://materializecss.com/"class="text-blue-400 font-semibold">Materialize</a> sigue las guías de diseño Material Design de Google, logrando un estilo atractivo y profesional. Incluye componentes visuales con animaciones. Su desventaja es que depende de JavaScript y su estilo está muy definido, lo que limita la personalización.</p>
+    <h3> Instalación</h3>
+    <pre><code>&lt;link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet"&gt;</code></pre>
+
+    <hr>
+
+    <h3>Componentes comunes</h3>
+
+    <h4> Botones</h4>
+    <a class="waves-effect waves-light btn">Primario</a>
+    <a class="btn green">Éxito</a>
+    <a class="btn red">Peligro</a>
+
+    <hr>
+    <h4>Formulario</h4>
+    <form>
+      <div class="input-field">
+        <input id="email" type="email" class="validate">
+        <label for="email">Correo electrónico</label>
+      </div>
+      <div class="input-field">
+        <textarea id="mensaje" class="materialize-textarea"></textarea>
+        <label for="mensaje">Mensaje</label>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit">Enviar</button>
+    </form>
+
+    <hr>
+
+    <h4> Tarjeta</h4>
+    <div class="card">
+      <div class="card-image">
+        <img src="https://imgs.search.brave.com/IF0MUYew_EXfSgvz_gL6u6fCb1g6clBojsuLCvi1yiY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4aW52ZW50LmNv/bS9waS1hc3NldHMv/bWF0ZXJpYWxpemUv/bGFuZGluZy1wYWdl/L2Zyb250LWxhbmRp/bmcucG5n">
+        <span class="card-title">Tarjeta Materialize</span>
+      </div>
+      <div class="card-content">
+        <p>Materialize usa el estilo Material Design de Google.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Leer más</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

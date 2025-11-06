@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo con Tailwind CSS</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  
+  <nav class="bg-gray-800 text-white px-4 py-3 flex justify-between items-center">
+    <a href="index.html" class="font-bold text-lg">Índice</a>
+    <div class="space-x-4">
+      <a href="bootstrap.html" class="hover:text-blue-400">Bootstrap</a>
+      <a href="bulma.html" class="hover:text-blue-400">Bulma</a>
+      <a href="materialize.html" class="hover:text-blue-400">Materialize</a>
+      <a href="tailwind.html" class="text-blue-400 font-semibold">Tailwind</a>
+    </div>
+  </nav>
+
+  <h1 class="text-3xl font-bold text-blue-600 mb-4">Framework: Tailwind CSS</h1>
+ 
+  <p class="text-gray-700 leading-relaxed">
+    <a href="https://tailwindcss.com/"class="text-blue-400 font-semibold">Tailwind CSS</a> usa clases utilitarias para construir diseños personalizados sin depender de estilos predefinidos. 
+    Es un framework muy flexible, ligero y moderno que permite crear interfaces únicas con gran control visual. 
+    Entre sus ventajas destacan su capacidad de personalización y su excelente integración con frameworks modernos como React o Vue. 
+    Como desventajas, el código HTML puede verse recargado de clases y requiere algo más de práctica para dominarlo completamente.
+  </p>
+  
+  <h3 class="font-semibold mb-2"> Instalación</h3>
+  <pre class="bg-white p-2 rounded shadow"><code>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</code></pre>
+
+  <hr class="my-4">
+
+  <h3 class="font-semibold mb-2"> Componentes comunes</h3>
+
+
+  <h4 class="text-xl mb-2"> Botones</h4>
+  <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Primario</button>
+  <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Éxito</button>
+  <button class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Peligro</button>
+
+  <hr class="my-4">
+
+  <h4 class="text-xl mb-2"> Formulario</h4>
+  <form class="space-y-4 max-w-md">
+    <div>
+      <label class="block text-gray-700">Correo electrónico</label>
+      <input type="email" class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-blue-500" placeholder="ejemplo@correo.com">
+    </div>
+    <div>
+      <label class="block text-gray-700">Mensaje</label>
+      <textarea class="w-full border rounded px-3 py-2 focus:ring-2 focus:ring-blue-500" placeholder="Escribe aquí..."></textarea>
+    </div>
+    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Enviar</button>
+  </form>
+
+  <hr class="my-4">
+
+  <h4 class="text-xl mb-2"> Tarjeta</h4>
+  <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+    <img src="https://imgs.search.brave.com/hElB8gTLGZzYLe2ZI1Fh3FLUXT7eFJHvb2gGmGjayqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdW5j/ZWwuaW8vX25leHQv/aW1hZ2U_dXJsPWh0/dHBzOi8vYXNzZXRz/LnN1bmNlbC5pby82/MWJmNWUyMzNjOTYy/YTg2MmZhZjIwOWYv/dGFpbHdpbmR1aWtp/dC1taW4uanBnJnc9/Mzg0MCZxPTc1" alt="Ejemplo" class="w-full">
+    <div class="p-4">
+      <h5 class="text-lg font-semibold mb-2">Tarjeta Tailwind</h5>
+      <p class="text-gray-600 mb-2">Tailwind te permite crear tus propios diseños de diferentes formas.</p>
+      <a href="#" class="text-blue-600 hover:underline">Leer más</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo con Bulma</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body class="has-background-light">
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">Índice</a>
+    </div>
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+        <a href="bootstrap.html" class="navbar-item">Bootstrap</a>
+        <a href="bulma.html" class="navbar-item has-text-weight-bold">Bulma</a>
+        <a href="materialize.html" class="navbar-item">Materialize</a>
+        <a href="tailwind.html" class="navbar-item">Tailwind</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-primary">Framework: Bulma</h1>
+      <h2><a href="https://bulma.io/"class="text-blue-400 font-semibold">Bulma </a>es un framework moderno basado en Flexbox, muy fácil de usar y sin necesidad de JavaScript. Ofrece un diseño limpio y ordenado. Sus desventajas son que tiene menos componentes que Bootstrap y que algunas funciones avanzadas deben hacerse manualmente.</h2>
+      
+      <h1 class="title">Instalación</h1>
+      <pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"&gt;</code></pre>
+
+      <hr>
+
+      <h1 class="title"> Componentes comunes</h1>
+
+      <h4>Botones</h4>
+      <div class="buttons">
+        <button class="button is-primary">Primario</button>
+        <button class="button is-success">Éxito</button>
+        <button class="button is-danger">Peligro</button>
+      </div>
+
+      <hr>
+
+      <h4>Formulario</h4>
+      <form>
+        <div class="field">
+          <label class="label">Correo electrónico</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="ejemplo@correo.com">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Mensaje</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Escribe aquí..."></textarea>
+          </div>
+        </div>
+        <button class="button is-link">Enviar</button>
+      </form>
+
+      <hr>
+
+      <h4>Tarjeta</h4>
+      <div class="card" style="max-width: 300px;">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://imgs.search.brave.com/4gX4cBuTvIN1hMymuh8fGvZF_akKxIZ5JNjaT52_eTE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuaG9uZ2tpYXQu/Y29tL3VwbG9hZHMv/YnVsbWEtZnJhbWV3/b3JrLzAzLWJ1bG1h/LW1vZGVybi1jc3Mt/ZnJhbWV3b3JrLmpw/Zw" alt="Ejemplo">
+          </figure>
+        </div>
+        <div class="card-content">
+          <p class="title is-5">Tarjeta Bulma</p>
+          <p>Bulma ofrece tarjetas limpias y modernas sin necesidad de JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
